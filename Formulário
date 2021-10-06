@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do cliente</title>
+</head>
+<body>
+  <div class="box"> </div>
+    <form action="">
+    <fieldset>
+            <legend>Cadastro</legend>
+
+            <div class="inputBox"></div>
+            <input type = "text" id= nome class="inputUser" required>
+            <label for= "nome">Digite seu nome</label>
+            <br><br>
+
+            <div class="inputBox"></div>
+            <input type = "number" id= idade class="inputUser" required>
+            <label for= "idade">Digite sua idade</label>
+            <br><br>
+
+            <div class="inputBox"></div>
+            <input type = "text" id= email class="inputUser" required>
+            <label for= "email">Email</label>
+            <br><br>
+
+            
+            <div class="inputBox"></div>
+            <input type = "text" id= CPF class="inputUser" maxlength="8" size="8"required>
+            <label for= "CPF">Digite seu CPF</label>
+            <br><br>
+
+            <p>Qual é a sua sexualidade? </p>
+
+            <div class="inputBox"></div>
+            <input type = "radio" required>
+            <label for= "SexoF">Feminino</label>
+
+            <div class="inputBox"></div>
+            <input type = "radio" required>
+            <label for= "SexoM">Masculino</label>
+            
+            <div class="inputBox"></div>
+            <input type = "radio" required>
+            <label for= "outro">Outro</label>
+            <br><br>
+
+            <p>Escolha sua área de atuação:</p>
+        
+            <div class="inputBox"></div>
+            <input type = "radio" required>
+            <label for= "cliente">Cliente</label>
+
+            <div class="inputBox"></div>
+            <input type = "radio" required>
+            <label for= "Admin">Admin</label>
+            <br><br>
+            
+        <button>Enviar dados</button>
+
+
+    </fieldset>
+    </form>
+    <br><br>
+
+</body>
+</html>
